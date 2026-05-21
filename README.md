@@ -1,39 +1,42 @@
 # Altos Lab
 
-Altos Lab is an AI automation and product engineering studio focused on
-practical systems: agents, workflow automation, product QA, web app rescue, and
-small Web3 builder tools.
+Altos Lab is a small product engineering studio for automation, internal tools,
+quality review, and practical web products.
 
-We prefer fixed-scope, evidence-first work:
+We work best on narrow, useful projects where the outcome can be measured:
 
-- define the workflow and success metric,
-- build the smallest reliable version,
-- keep human review where ambiguity or risk is high,
-- document failure modes, rollback paths, and handoff steps.
+- workflow calculators and decision tools,
+- internal dashboards and operations software,
+- product QA, bug triage, and fix briefs,
+- web app rescue and launch-readiness work,
+- lightweight Web3 builder tools and integration prototypes.
 
-## Current Offers
+## How We Work
 
-- AI workflow automation sprint
-- Product QA and fix brief
-- Web app rescue sprint
-- Agent reliability, eval, and workflow tooling
-- Web3 builder support and bounty tooling
+- Start with the workflow, user, and success metric.
+- Ship a small version that can be tested quickly.
+- Keep sensitive decisions reviewable by a person.
+- Leave clear notes, setup steps, and maintenance guidance.
 
-## Proof of Work
+## Current Public Work
 
-- [AI Agent ROI Calculator](https://altoslab447.github.io/ai-agent-roi-calculator/)
-  - [GitHub repo](https://github.com/altoslab447/ai-agent-roi-calculator)
-  - Browser-only calculator for estimating automation savings, review cost,
-    AI operating cost, and breakeven build budget.
+### Workflow Automation ROI Calculator
 
-## Operating Boundaries
+- Live site: https://altoslab447.github.io/ai-agent-roi-calculator/
+- Source: https://github.com/altoslab447/ai-agent-roi-calculator
 
-Altos Lab can help with automation, software delivery, QA, documentation, and
-technical strategy. We do not handle wallet seed phrases, private keys,
-misleading identity claims, or financial promises.
+A browser-only calculator for estimating automation savings, review cost,
+operating cost, and breakeven build budget.
 
-## Work With Us
+### Freelance Opportunity Radar
 
-Open a workflow audit request here:
+- Source: https://github.com/altoslab447/outsourcing
+
+A small internal tool for scanning, filtering, and prioritizing remote contract
+opportunities.
+
+## Contact
+
+For a workflow review or small product build, open a request here:
 
 https://github.com/altoslab447/ai-agent-roi-calculator/issues/new

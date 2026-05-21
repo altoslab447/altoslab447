@@ -22,8 +22,8 @@ We work best on narrow, useful projects where the outcome can be measured:
 
 ### Workflow Automation ROI Calculator
 
-- Live site: https://altoslab447.github.io/ai-agent-roi-calculator/
-- Source: https://github.com/altoslab447/ai-agent-roi-calculator
+- Live site: https://altoslab447.github.io/workflow-automation-roi-calculator/
+- Source: https://github.com/altoslab447/workflow-automation-roi-calculator
 
 A browser-only calculator for estimating automation savings, review cost,
 operating cost, and breakeven build budget.
@@ -47,4 +47,4 @@ opportunities.
 
 For a workflow review or small product build, open a request here:
 
-https://github.com/altoslab447/ai-agent-roi-calculator/issues/new
+https://github.com/altoslab447/workflow-automation-roi-calculator/issues/new

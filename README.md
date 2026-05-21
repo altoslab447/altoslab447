@@ -28,6 +28,14 @@ We work best on narrow, useful projects where the outcome can be measured:
 A browser-only calculator for estimating automation savings, review cost,
 operating cost, and breakeven build budget.
 
+### Workflow Reliability Checklist
+
+- Live site: https://altoslab447.github.io/workflow-reliability-checklist/
+- Source: https://github.com/altoslab447/workflow-reliability-checklist
+
+A browser-only checklist for reviewing triggers, validation, retries, logging,
+manual approval, rollback, and handoff readiness before launch.
+
 ### Freelance Opportunity Radar
 
 - Source: https://github.com/altoslab447/outsourcing

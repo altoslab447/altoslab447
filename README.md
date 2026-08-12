@@ -1,50 +1,28 @@
 # Altos Lab
 
-Altos Lab is a small product engineering studio for automation, internal tools,
-quality review, and practical web products.
+Open-source maintenance and product engineering by John Wu. I build small operations tools, test their failure boundaries, and leave reproducible setup and verification paths for the next contributor.
 
-We work best on narrow, useful projects where the outcome can be measured:
+## Open-source maintenance
 
-- workflow calculators and decision tools,
-- internal dashboards and operations software,
-- product QA, bug triage, and fix briefs,
-- web app rescue and launch-readiness work,
-- lightweight Web3 builder tools and integration prototypes.
+### OpenClaw Dashboard
 
-## How We Work
+[Repository](https://github.com/altoslab447/openclaw-dashboard) · [Quality gates](https://github.com/altoslab447/openclaw-dashboard/actions/workflows/proof.yml) · [Contributing](https://github.com/altoslab447/openclaw-dashboard/blob/main/CONTRIBUTING.md)
 
-- Start with the workflow, user, and success metric.
-- Ship a small version that can be tested quickly.
-- Keep sensitive decisions reviewable by a person.
-- Leave clear notes, setup steps, and maintenance guidance.
+I am the primary maintainer of a local, read-only operator dashboard for OpenClaw workspaces. It combines task state, scheduled jobs, configuration, installed skills, and gateway logs without writing back to the workspace.
 
-## Current Public Work
+Current maintenance work focuses on parser compatibility, privacy and network boundaries, reproducible fixtures, issue triage, and keeping documentation aligned with executable behavior.
 
-### Workflow Automation ROI Calculator
+## Other public tools
 
-- Live site: https://altoslab447.github.io/workflow-automation-roi-calculator/
-- Source: https://github.com/altoslab447/workflow-automation-roi-calculator
+- [Workflow Automation ROI Calculator](https://github.com/altoslab447/workflow-automation-roi-calculator) — a browser-only model for estimating automation savings, review cost, operating cost, and breakeven budget. [Live site](https://altoslab447.github.io/workflow-automation-roi-calculator/)
+- [Workflow Reliability Checklist](https://github.com/altoslab447/workflow-reliability-checklist) — a review checklist for triggers, validation, retries, logging, human approval, rollback, and handoff readiness. [Live site](https://altoslab447.github.io/workflow-reliability-checklist/)
+- [Freelance Opportunity Radar](https://github.com/altoslab447/outsourcing) — a small tool for scanning, filtering, and prioritizing remote contract opportunities.
 
-A browser-only calculator for estimating automation savings, review cost,
-operating cost, and breakeven build budget.
+## Working principles
 
-### Workflow Reliability Checklist
+- Start with the user workflow and an observable result.
+- Keep sensitive or irreversible actions reviewable by a person.
+- Treat build output as a checkpoint, not proof that behavior works.
+- Document setup, limits, verification, and maintenance boundaries.
 
-- Live site: https://altoslab447.github.io/workflow-reliability-checklist/
-- Source: https://github.com/altoslab447/workflow-reliability-checklist
-
-A browser-only checklist for reviewing triggers, validation, retries, logging,
-manual approval, rollback, and handoff readiness before launch.
-
-### Freelance Opportunity Radar
-
-- Source: https://github.com/altoslab447/outsourcing
-
-A small internal tool for scanning, filtering, and prioritizing remote contract
-opportunities.
-
-## Contact
-
-For a workflow review or small product build, open a request here:
-
-https://github.com/altoslab447/workflow-automation-roi-calculator/issues/new
+For an OpenClaw Dashboard bug or compatibility report, use the repository's [issue templates](https://github.com/altoslab447/openclaw-dashboard/issues/new/choose).
